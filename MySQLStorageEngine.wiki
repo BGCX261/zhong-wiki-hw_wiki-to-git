@@ -9,6 +9,6 @@ MyISAM无法处理事务，适用于：
 
 MyISAM的三种格式：
 
- # MyISAM静态
+ # MyISAM静态：所有表列的大小都是静态的（即不使用xBLOB, xTEXT或VCHAR数据类型）。
  # MyISAM动态
  # MyISAM压缩
