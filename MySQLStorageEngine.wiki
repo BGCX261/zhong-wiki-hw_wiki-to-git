@@ -10,3 +10,5 @@ MyISAM无法处理事务，适用于：
 MyISAM的三种格式：
 
  # MyISAM静态
+ # MyISAM动态
+ # MyISAM压缩
