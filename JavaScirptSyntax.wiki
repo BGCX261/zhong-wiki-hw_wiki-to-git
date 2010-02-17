@@ -61,3 +61,14 @@ document.write( "some characters" );
 ||模||%||
 ||递减||--||
 ||递加||++||
+
+数据类型转换
+
+{{{
+// 把括号内的变量值转换为一个数
+Number()
+
+// 
+parseFloat()
+
+}}}
