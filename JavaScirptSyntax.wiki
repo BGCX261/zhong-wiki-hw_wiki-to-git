@@ -12,5 +12,5 @@
 
 {{{
 // 定义变量
-var myVariable
+var myVariable = "something"
 }}}
