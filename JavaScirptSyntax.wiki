@@ -14,3 +14,13 @@
 // 定义变量
 var myVariable = "something"
 }}}
+
+{{{
+// 定义函数
+function doSomething() {
+  alert('Function');
+}
+
+// 调用函数
+doSomething();
+}}}
