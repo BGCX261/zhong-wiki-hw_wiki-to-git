@@ -22,3 +22,5 @@ function doSomething() {
 // 调用函数
 doSomething();
 }}}
+
+= 数据类型 =
