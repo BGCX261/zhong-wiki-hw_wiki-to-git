@@ -1,5 +1,6 @@
 #summary JavaScript语法
 
+
 {{{
 // 单行注释
 
@@ -9,6 +10,9 @@
 
 // 定义变量
 var myVariable = "something"
+
+// 调用变量
+myVariable
 
 // 定义函数
 function doSomething() {
