@@ -16,7 +16,7 @@ myVariable
 
 // 定义函数
 function doSomething() {
-  alert('Function');
+  alert( "Function" );
 }
 
 // 调用函数
