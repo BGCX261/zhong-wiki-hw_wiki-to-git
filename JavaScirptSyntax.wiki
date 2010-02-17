@@ -27,7 +27,11 @@ doSomething();
 
 {{{
 // 字符串(string)
+// JavaScript解释器要求字符串数据被单引号或双引号括起来
+document.write( "some characters" );
+
 // 数字(number)
+
 // 布尔值(boolean)
 // 空值(null)
 // 未定义(undefined)
