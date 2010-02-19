@@ -1,0 +1,3 @@
+#summary Django响应请求流程
+
+http://new-media.djangobook.com/content/en/1.0/chapter03/get_response.png
