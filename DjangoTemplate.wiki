@@ -1,5 +1,7 @@
 #summary Django模板系统
 
+*render_to_response*
+
 {{{
 from django.template.loader import get_template
 from django.template import Context
