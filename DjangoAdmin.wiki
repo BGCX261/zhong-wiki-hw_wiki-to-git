@@ -11,3 +11,5 @@ admin.site.register(Book)
 admin.site.register(Author)
 admin.site.register(Publisher)
 }}}
+
+参考资料：http://code.djangoproject.com/wiki/BackwardsIncompatibleChanges#Mergednewforms-adminintotrunk
