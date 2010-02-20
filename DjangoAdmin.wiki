@@ -13,3 +13,7 @@ admin.site.register(Publisher)
 }}}
 
 参考资料：http://code.djangoproject.com/wiki/BackwardsIncompatibleChanges#Mergednewforms-adminintotrunk
+
+----
+
+== 定制管理模板 ==
