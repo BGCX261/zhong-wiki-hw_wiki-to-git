@@ -1,6 +1,6 @@
 #summary MySQL存储引擎
 
-= MyISAM =
+== MyISAM ==
 
 MyISAM无法处理事务，适用于：
 
