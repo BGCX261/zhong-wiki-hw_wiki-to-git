@@ -1,6 +1,6 @@
 #summary Django数据模型
 
-*AutoField*
+*!AutoField*
 
 指一个能够根据可用ID自增的IntegerField。通常不用直接使用它，如果没有指定主键，系统会自动再模型中加入这样的主键。
 
