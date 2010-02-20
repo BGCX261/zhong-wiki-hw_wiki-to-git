@@ -1,1 +1,4 @@
 #summary SproutCore框架
+
+http://www.sproutcore.com/
+http://github.com/sproutit/
