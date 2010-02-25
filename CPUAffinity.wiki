@@ -3,5 +3,6 @@
 http://en.wikipedia.org/wiki/Processor_affinity
 
 {{{
-# sudo apt-get install schedutils
+# sudo apt-get install util-linux
+# taskset -h
 }}}
