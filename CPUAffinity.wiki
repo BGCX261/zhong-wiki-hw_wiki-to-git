@@ -1,0 +1,7 @@
+#summary CPU affinity
+
+http://en.wikipedia.org/wiki/Processor_affinity
+
+{{{
+# sudo apt-get install schedutils
+}}}
