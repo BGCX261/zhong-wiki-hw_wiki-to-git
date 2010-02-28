@@ -7,6 +7,8 @@ AUTHENTICATION_BACKENDS = (
 )
 }}}
 
+
+email-auth.py
 {{{
 from django.contrib.auth.models import User                                                                                  
 from django.forms.fields import email_re
