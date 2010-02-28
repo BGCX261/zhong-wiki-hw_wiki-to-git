@@ -1,5 +1,12 @@
 #summary Django Email鉴别模块
 
+settings.py
+{{{
+AUTHENTICATION_BACKENDS = ( 
+    'mysite.email-auth.EmailBackend',
+)
+}}}
+
 {{{
 from django.contrib.auth.models import User                                                                                  
 from django.forms.fields import email_re
