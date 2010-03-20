@@ -2,9 +2,9 @@
 
 = GTK+ and Glade3 GUI Programming Tutorial =
 
- *原文作者：Micah Carrick
- *中文译者：Wee Binn
- *整理更新：Zhong Chen
+ * 原文作者：Micah Carrick
+ * 中文译者：Wee Binn
+ * 整理更新：Zhong Chen
 
 == Quick Overview of GTK+ Concepts ==
 
