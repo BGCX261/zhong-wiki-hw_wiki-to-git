@@ -1,0 +1,21 @@
+#summary GTK+ and Glade3 GUI Programming Tutorial
+
+= GTK+ and Glade3 GUI Programming Tutorial =
+
+ *原文作者：Micah Carrick
+ *中文译者：Wee Binn
+ *整理更新：Zhong Chen
+
+== Quick Overview of GTK+ Concepts ==
+
+如果你们有任何GTK+的编程经验，那么对于我将要阐述的一些概念你也许会听着犯迷糊。不过不用担心，在遇到这些概念的时候我回详细讲解，以便你能很好的阅读后面的内容。学完这一部分，对GTK+的基本概念有所了解后，你也许就能够有效的利用Glade进行开发了。
+
+首先，GTK+并不是一门编程语言，而是一个开发工具套件，或者说是一个开发库，用来进行跨平台GUI应用程序开发，Linux, OSX, Windows或其它任何平台都能使用GTK+。GTK+就好比Windows上的MFC和Win32 API，JAVA上的Swing和SWT，或者Qt（KDE使用的GUI开发套件）。
+
+尽管GTK+是使用C语言编写的，但是提供了其它各种语言的的捆绑，允许程序员选择自己喜欢的开发语言来开发GTK+应用程序，比如：C++, Python, Perl, PHP, Ruby等等。
+
+GTK+开发套件基于三个主要的库：Glib, Pango和ATK，当然我们只需要关心如何使用GTK+即可，GTK+自己负责与这三个库打交道。Glib封装了大部分可移植的C库函数（允许你的代码移植到Windows和Linux上运行）。使用C或C++时，将大量使用Glib库函数，在我们用C语言的具体实现过程中我会详细解释它们。高级语言如：Python和Ruby却不用担心Glib的使用，因为它们有自己的标准库提供了相应的功能。
+
+GTK+及相关的库是按照面向对象设计思想来实现的，至于这是如何实现的现在并不重要，不同的编程语言有不同的实现方法，重要的是要知道GTK+使用面向对象编程技术即可（似的，即使是C实现的）。
+
+每一个GTK+的GUI元素都是由一个或许多个"widgets"对象构成的。所有的"widgets"都从基类"GtkWidget"派生。例如，应用程序的主窗口是"GtkWindow"类的"widget"，窗口
